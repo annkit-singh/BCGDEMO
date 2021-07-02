@@ -65,20 +65,29 @@ fieldset {
   padding-top: 2px;
   font-family: "Montserrat", sans-serif;
   color: grey;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 15px;
 }
 .pro-label {
-  margin: 0 12px;
-  color: black;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
+  text-decoration: none;
+    margin: 0px 20px;
+    color: grey;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    width: auto;
+    padding: 10px;
+  
 }
 .pro-label:hover {
-  color: blue;
+  text-decoration: none; 
+  color: rgb(4, 4, 85);
+  border-bottom: 2px solid rgb(4, 4, 85);
 }
 .right-label:hover {
-  color: blue;
+  text-decoration: none; 
+  color: rgb(4, 4, 85);
+  border-bottom: 2px solid rgb(4, 4, 85);
 }
 
 .sms {
@@ -89,4 +98,22 @@ fieldset {
 .bars{
 height:100%;
 
+}
+
+.options{
+  height: 41px;
+    margin-top: 16px;
+    display: flex;
+}
+
+.pro{
+  width: 44%;
+}
+
+.sFont{
+  font-size: 17px;
+}
+.optionFont{
+  font-size: 13px;
+  color: gray;
 }
