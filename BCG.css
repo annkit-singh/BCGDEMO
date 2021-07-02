@@ -7,9 +7,14 @@
 }
 
 .headings {
-  color: #23c436;
+  /* color: #23c436; */
   background-color: white;
   margin: 0 !important;
+  border: 2px solid white;
+}
+
+.headings img{
+  width: 169px;
 }
 
 .sms-label {
@@ -117,3 +122,4 @@ height:100%;
   font-size: 13px;
   color: gray;
 }
+
