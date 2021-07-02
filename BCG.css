@@ -13,7 +13,7 @@
   border: 2px solid white;
 }
 
-.headings img{
+.headings img {
   width: 169px;
 }
 
@@ -42,6 +42,7 @@ fieldset {
   height: 187px;
   margin-bottom: 5px;
   border-radius: 4px !important;
+
   position: relative;
 }
 
@@ -75,22 +76,21 @@ fieldset {
 }
 .pro-label {
   text-decoration: none;
-    margin: 0px 20px;
-    color: grey;
-    font-family: "Montserrat", sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    width: auto;
-    padding: 10px;
-  
+  margin: 0px 20px;
+  color: grey;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  width: auto;
+  padding: 10px;
 }
 .pro-label:hover {
-  text-decoration: none; 
+  text-decoration: none;
   color: rgb(4, 4, 85);
   border-bottom: 2px solid rgb(4, 4, 85);
 }
 .right-label:hover {
-  text-decoration: none; 
+  text-decoration: none;
   color: rgb(4, 4, 85);
   border-bottom: 2px solid rgb(4, 4, 85);
 }
@@ -99,27 +99,24 @@ fieldset {
   margin-top: 8px;
 }
 
-
-.bars{
-height:100%;
-
+.bars {
+  height: 100%;
 }
 
-.options{
+.options {
   height: 41px;
-    margin-top: 16px;
-    display: flex;
+  margin-top: 16px;
+  display: flex;
 }
 
-.pro{
+.pro {
   width: 44%;
 }
 
-.sFont{
+.sFont {
   font-size: 17px;
 }
-.optionFont{
+.optionFont {
   font-size: 13px;
   color: gray;
 }
-
