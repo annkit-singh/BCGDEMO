@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  overflow: auto;
+}
+
+.headings {
+  color: #23c436;
+  background-color: white;
+  margin: 0 !important;
+}
+
+.sms-label {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 3%;
+  padding-top: 2px;
+  font-family: "Montserrat", sans-serif;
+}
+.sms-input {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px !important;
+}
+fieldset {
+  text-align: start;
+}
+
+/* contain block  cdd */
+
+/* contain block end  */
+
+.boxl {
+  background-color: white;
+  height: 187px;
+  margin-bottom: 5px;
+  border-radius: 4px !important;
+  position: relative;
+}
+
+.icons {
+  position: absolute;
+  top: 5px;
+  right: 7px;
+  font-size: 18px;
+}
+
+.boxr {
+  background-color: white;
+  height: 180px;
+  margin-bottom: 2px;
+
+  border: 2px solid green;
+}
+
+.maindiv {
+  padding: 0 !important;
+}
+.units2 .right-label {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 3%;
+  padding-top: 2px;
+  font-family: "Montserrat", sans-serif;
+  color: grey;
+  font-weight: 600;
+  font-size: 15px;
+}
+.pro-label {
+  margin: 0 12px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+.pro-label:hover {
+  color: blue;
+}
+.right-label:hover {
+  color: blue;
+}
+
+.sms {
+  margin-top: 8px;
+}
+
+
+.bars{
+height:100%;
+
+}
