@@ -10,11 +10,13 @@
   /* color: #23c436; */
   background-color: white;
   margin: 0 !important;
+  padding-bottom: 10px;
   border: 2px solid white;
 }
 
 .headings img {
-  width: 169px;
+  width: 70px;
+  height: 50px;
 }
 
 .sms-label {
