@@ -45,5 +45,18 @@ require( ["js/qlik"], function ( qlik ) {
 	
 	
 	//create cubes and lists -- inserted here --
+//	$('.pro-label').click(function(){$('#status').text('Overview');});
+
+$('#subtab1').click(function(){$('#subtab1').addClass("active");$('#subtab2').removeClass("active");$('#subtab3').removeClass("active");$('#subtab4').removeClass("active");$('#subtab5').removeClass("active")});
+$('#subtab2').click(function(){$('#subtab2').addClass("active");$('#subtab1').removeClass("active");$('#subtab3').removeClass("active");$('#subtab4').removeClass("active");$('#subtab5').removeClass("active")});
+$('#subtab3').click(function(){$('#subtab3').addClass("active");$('#subtab2').removeClass("active");$('#subtab1').removeClass("active");$('#subtab4').removeClass("active");$('#subtab5').removeClass("active")});
+$('#subtab4').click(function(){$('#subtab4').addClass("active");$('#subtab2').removeClass("active");$('#subtab3').removeClass("active");$('#subtab1').removeClass("active");$('#subtab5').removeClass("active")});
+$('#subtab5').click(function(){$('#subtab5').addClass("active");$('#subtab2').removeClass("active");$('#subtab3').removeClass("active");$('#subtab4').removeClass("active");$('#subtab1').removeClass("active")});
+	
+
+	
+	$('#prod').click(function(){$('#prod').addClass("active");$('#qual').removeClass("active");$('#cost').removeClass("active")});
+	$('#qual').click(function(){$('#qual').addClass("active");$('#prod').removeClass("active");$('#cost').removeClass("active")});
+	$('#cost').click(function(){$('#cost').addClass("active");$('#prod').removeClass("active");$('#qual').removeClass("active")});
 
 } );
