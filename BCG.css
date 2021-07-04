@@ -11,7 +11,7 @@
   background-color: white;
   margin: 0 !important;
   padding-bottom: 10px;
-  border: 2px solid white;
+ // border: 2px solid white;
 }
 
 .headings img {
@@ -43,7 +43,7 @@ fieldset {
   background-color: white;
   height: 187px;
   margin-bottom: 5px;
-  border-radius: 4px !important;
+  border-radius: 10px !important;
 
   position: relative;
 }
@@ -76,6 +76,7 @@ fieldset {
   font-weight: 800;
   font-size: 15px;
 }
+
 .pro-label {
   text-decoration: none;
   margin: 0px 20px;
@@ -85,16 +86,30 @@ fieldset {
   font-size: 14px;
   width: auto;
   padding: 10px;
+  text-decoration:none;
 }
+.active{
+	border-bottom: 2px solid rgb(4, 4, 85);
+	text-decoration-line:none;
+}
+
 .pro-label:hover {
   text-decoration: none;
   color: rgb(4, 4, 85);
-  border-bottom: 2px solid rgb(4, 4, 85);
 }
+.pro-label:focus {
+  text-decoration: none;
+}
+
+.right-label:focus {
+  text-decoration: none;
+}
+
+
+
 .right-label:hover {
   text-decoration: none;
   color: rgb(4, 4, 85);
-  border-bottom: 2px solid rgb(4, 4, 85);
 }
 
 .sms {
