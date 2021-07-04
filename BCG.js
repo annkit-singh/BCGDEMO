@@ -36,8 +36,18 @@ require( ["js/qlik"], function ( qlik ) {
 	var app3 = qlik.openApp('FinalAssignment(Dashboard2).qvf', config);
 
 	var app4 = qlik.openApp('BCG (2).qvf', config);
+	var app5 = qlik.openApp('BCG (2).qvf', config);
+
+	var app6 = qlik.openApp('BCG (2).qvf', config);
+
 
 	//get objects -- inserted here --
+	
+	app6.getObject('QV04','MmpPrMU');
+	
+	
+	
+	
 	app4.getObject('QV01','YWaC');
 	app3.getObject('QV03','PsvmvZ');
 	app2.getObject('QV02','PsvmvZ');
